@@ -1,0 +1,31 @@
+from turtle import *
+
+Screen().bgcolor("#111111") #bgpic("your png")
+#speed(0)
+#hideturtle()
+up()
+setpos(-130, 70)
+down()
+seth(45)
+color("white")
+width(2)
+
+begin_fill()
+left(180)
+circle(63, 160)
+fd(320)
+circle(10, 15)
+left(155)
+fd(290)
+right(190)
+circle(50, -140)
+#fd(25)
+fd(35)
+
+
+end_fill()
+penup()
+write("NIKE ", setpos(-40, 80), font=("Arial bold", 60, "italic"))
+color("#111111")
+penup()
+mainloop()
